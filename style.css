@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.line-between {
+    border-bottom: 1px solid black;
+    margin: 8px 0;
+    width: 400px;
+}
+
+.main-container{
+    display: flex;
+   
+}
+.image-container{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.image{
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.form-container{
+    height: auto;
+    width: 30%;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-container h1{
+    font-size: 1.25em;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    width: 40vw;
+    
+
+}
+.heading-4{
+    font-weight: lighter;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+.email-input , .password-input{
+    padding: 20px 20px;
+    width: 400px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+.signup-button{
+    padding: 20px 20px;
+    width: 400px;
+    background-color:#3866e3;
+    border-radius: 8px;
+    font-size: large;
+    font-weight: bolder;
+    color: azure;
+    margin-bottom: 10px;
+
+}
+
+.google-tag-signup , .facebook-tag-signup{
+    text-decoration: none;
+    width: 400px;
+    padding: 15px 20px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    display: flex;
+    font-weight: bold;
+    align-items: start;
+    justify-content: space-evenly;
+   
+    color: inherit;
+    margin-bottom: 20px;
+}
+.google-tag-signup{
+    margin-top: 20px;
+}
+.fb-icon , .google-icon{
+    width: 20px;
+}
+
+.signup-form p{
+    margin-left: 100px;
+
+}
+.signup-form a{
+    color: #3866e3;
+    font-weight: bold;
+}
+
+
